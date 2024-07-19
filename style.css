@@ -51,4 +51,42 @@ p {
     outline: none;
 }
 
+.btn-1 {
+    transition: all 0.5s;
+}
+
+.btn-1:hover {
+    color: #ffff;
+    background: #353535;
+}
+
+.btn-2 {
+    transition: all 0.5s ease;
+}
+
+.btn-2:hover {
+    width: 140px;
+    height: 50px;
+    color: #ffff;
+    border: 2px solid rgb(255, 116, 139);
+    background: rgb(255, 116, 139);
+}
+
+.btn-3 {
+    color: #ffff;
+    background: green;
+    transition: all 0.5s ease;
+}
+
+.btn-3:hover {
+    width: 140px;
+    height: 50px;
+    color: green;
+    font-weight: bolder;
+    background: #ffff;
+    border: 4px solid green;
+    border-radius: 20px;
+}
+
+
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
